@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Saksham Tripathi — Software Engineer</title>
+<meta name="description" content="Saksham Tripathi — Software Engineer, Python Developer, Problem Solver." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,600,700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="loader">
+  <div class="loader-mark">SAKSHAM.DEV</div>
+  <div class="loader-bar"><div class="loader-fill" id="loaderFill"></div></div>
+</div>
+
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<div class="aurora">
+  <div class="blob b1"></div>
+  <div class="blob b2"></div>
+  <div class="blob b3"></div>
+</div>
+<div class="noise"></div>
+<div class="spotlight" id="spotlight"></div>
+<div id="scroll-progress"></div>
+
+<header>
+  <div class="logo"><span class="dot"></span> Saksham</div>
+  <nav class="top-links">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="section-dots" id="sectionDots">
+  <span data-target="hero" class="active"></span>
+  <span data-target="about"></span>
+  <span data-target="skills"></span>
+  <span data-target="projects"></span>
+  <span data-target="certs"></span>
+  <span data-target="contact"></span>
+</div>
+
+<div class="dock">
+  <a href="#hero" data-magnetic><span class="dock-label">Home</span><i class="fa-solid fa-house"></i></a>
+  <a href="#about" data-magnetic><span class="dock-label">About</span><i class="fa-solid fa-user"></i></a>
+  <a href="#skills" data-magnetic><span class="dock-label">Skills</span><i class="fa-solid fa-layer-group"></i></a>
+  <a href="#projects" data-magnetic><span class="dock-label">Projects</span><i class="fa-solid fa-diagram-project"></i></a>
+  <a href="#contact" data-magnetic><span class="dock-label">Contact</span><i class="fa-regular fa-paper-plane"></i></a>
+</div>
+
+<button id="back-top" aria-label="Back to top" data-magnetic><i class="fa-solid fa-arrow-up"></i></button>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-grid">
+    <div class="hero-text reveal">
+      <div class="eyebrow">Open to Software Engineering roles</div>
+      <h1>Saksham Tripathi.<br><span class="grad">Engineering thoughtful software.</span></h1>
+      <div class="role-row">
+        <span class="role-pill">Software Engineer</span>
+        <span class="role-pill">Python Developer</span>
+        <span class="role-pill">Problem Solver</span>
+      </div>
+      <p class="lead">I build clean, reliable software with Python and the web — from CRUD systems grounded in solid OOP to responsive interfaces people enjoy using. Currently an IT undergraduate, always shipping something.</p>
+      <div class="hero-cta">
+        <a href="SAKSHAM_TRIPATHI.pdf" download class="btn btn-primary" data-magnetic><i class="fa-solid fa-arrow-down"></i> Download Resume</a>
+        <a href="#contact" class="btn btn-ghost" data-magnetic><i class="fa-regular fa-paper-plane"></i> Contact Me</a>
+        <a href="#projects" class="btn btn-outline" data-magnetic><i class="fa-solid fa-diagram-project"></i> View Projects</a>
+      </div>
+    </div>
+    <div class="hero-photo-wrap reveal">
+      <div class="orbit o1"></div>
+      <div class="orbit o2"></div>
+      <div class="photo-card">
+        <img src="assets/profile.png" alt="Saksham Tripathi" />
+      </div>
+      <div class="float-badge fb1"><i class="fa-brands fa-python"></i> Python &amp; SQL</div>
+      <div class="float-badge fb2"><i class="fa-solid fa-code"></i> Building in public</div>
+    </div>
+  </div>
+  <div class="scroll-hint"><span>Scroll</span><div class="line"></div></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-head reveal">
+    <div class="eyebrow">About</div>
+    <h2>A developer who ships, not just studies.</h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-copy reveal">
+      <p><strong>I'm an Information Technology undergraduate</strong> at Dr. APJ Abdul Kalam Technical University (AKTU), Lucknow, expected to graduate in 2027 — building a foundation in Python, SQL, web development, and core computer science along the way.</p>
+      <p>I'm drawn to software engineering because I like turning fuzzy problems into working systems: a data structure that fits, a query that's actually fast, an interface that doesn't get in the way. I learn quickly, communicate clearly, and collaborate well — the kind of person a team can hand a problem to and trust it'll get solved.</p>
+      <p>I'm currently looking for an entry-level Software Engineer role where I can contribute meaningfully while continuing to grow.</p>
+      <div class="facts">
+        <div class="fact-card"><div class="num">2027</div><div class="lbl">Expected Graduation</div></div>
+        <div class="fact-card"><div class="num">2+</div><div class="lbl">Shipped Projects</div></div>
+        <div class="fact-card"><div class="num">3</div><div class="lbl">Certifications</div></div>
+        <div class="fact-card"><div class="num">B.Tech</div><div class="lbl">Information Technology</div></div>
+      </div>
+    </div>
+    <div class="edu-card reveal">
+      <div class="edu-top">
+        <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <div>
+          <h3>Bachelor of Technology</h3>
+          <div class="edu-sub">Information Technology</div>
+        </div>
+      </div>
+      <p style="color:var(--muted);font-size:.94rem;">Dr. APJ Abdul Kalam Technical University (AKTU), Lucknow</p>
+      <div class="edu-meta">
+        <span><i class="fa-regular fa-calendar"></i> Expected 2027</span>
+        <span><i class="fa-solid fa-location-dot"></i> Lucknow, India</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-head reveal">
+    <div class="eyebrow">Capabilities</div>
+    <h2>Skills &amp; Tools</h2>
+  </div>
+  <div class="skills-cats">
+    <div class="skill-cat reveal">
+      <div class="cat-head"><i class="fa-solid fa-code"></i><h3>Programming</h3></div>
+      <div class="skill-tags">
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">SQL</span>
+        <span class="skill-tag">HTML</span>
+        <span class="skill-tag">CSS</span>
+        <span class="skill-tag">JavaScript</span>
+      </div>
+    </div>
+    <div class="skill-cat reveal">
+      <div class="cat-head"><i class="fa-solid fa-diagram-project"></i><h3>Core CS</h3></div>
+      <div class="skill-tags">
+        <span class="skill-tag">DSA</span>
+        <span class="skill-tag">OOP</span>
+        <span class="skill-tag">DBMS</span>
+        <span class="skill-tag">Operating Systems</span>
+        <span class="skill-tag">Computer Networks</span>
+      </div>
+    </div>
+    <div class="skill-cat reveal">
+      <div class="cat-head"><i class="fa-solid fa-toolbox"></i><h3>Tools</h3></div>
+      <div class="skill-tags">
+        <span class="skill-tag">Git</span>
+        <span class="skill-tag">GitHub</span>
+        <span class="skill-tag">VS Code</span>
+        <span class="skill-tag">MySQL</span>
+        <span class="skill-tag">Jupyter Notebook</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-head reveal">
+    <div class="eyebrow">Selected Work</div>
+    <h2>Featured Projects</h2>
+  </div>
+  <div class="projects-grid">
+    <div class="project-card reveal" data-tilt>
+      <div class="project-top">
+        <span class="project-index">01</span>
+        <div class="project-preview"><i class="fa-brands fa-python"></i></div>
+      </div>
+      <h3>Student Management System</h3>
+      <p>A Python-based CRUD application for managing student records, structured with Object-Oriented Programming and backed by SQL for clean, maintainable architecture.</p>
+      <div class="highlight-row">
+        <span class="highlight-chip">CRUD</span>
+        <span class="highlight-chip">OOP</span>
+        <span class="highlight-chip">SQL</span>
+        <span class="highlight-chip">Clean Architecture</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/SandilyaSaksham/student-management-system" target="_blank" rel="noopener" data-magnetic><i class="fa-brands fa-github"></i> GitHub</a>
+      </div>
+    </div>
+    <div class="project-card reveal" data-tilt>
+      <div class="project-top">
+        <span class="project-index">02</span>
+        <div class="project-preview"><i class="fa-solid fa-globe"></i></div>
+      </div>
+      <h3>Responsive Business Website</h3>
+      <p>A responsive, multi-device business website with a modern UI — built with an interactive layout, clean structure, and smooth navigation across screen sizes.</p>
+      <div class="highlight-row">
+        <span class="highlight-chip">Responsive Design</span>
+        <span class="highlight-chip">Clean UI</span>
+        <span class="highlight-chip">Interactive Layout</span>
+        <span class="highlight-chip">HTML/CSS/JS</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/SandilyaSaksham/business-website" target="_blank" rel="noopener" data-magnetic><i class="fa-brands fa-github"></i> GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certs">
+  <div class="section-head reveal">
+    <div class="eyebrow">Credentials</div>
+    <h2>Certifications</h2>
+  </div>
+  <div class="cert-grid">
+    <div class="cert-card reveal"><i class="fa-brands fa-python"></i><h4>Python Programming</h4><span>Certification</span></div>
+    <div class="cert-card reveal"><i class="fa-solid fa-database"></i><h4>SQL Fundamentals</h4><span>Certification</span></div>
+    <div class="cert-card reveal"><i class="fa-solid fa-code"></i><h4>Web Development Fundamentals</h4><span>Certification</span></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-wrap reveal">
+    <div class="eyebrow" style="justify-content:center;">Get in touch</div>
+    <h2>Let's build something great.</h2>
+    <p>Open to entry-level Software Engineer roles and interesting Python or web projects. Based in Lucknow, happy to work with teams anywhere.</p>
+    <div class="contact-links">
+      <a href="mailto:sandilyasaksham45@gmail.com" data-magnetic><i class="fa-solid fa-envelope"></i> sandilyasaksham45@gmail.com</a>
+      <a href="tel:+916395974743" data-magnetic><i class="fa-solid fa-phone"></i> +91 6395974743</a>
+      <a href="#" data-magnetic><i class="fa-solid fa-location-dot"></i> Lucknow, Uttar Pradesh, India</a>
+    </div>
+    <div class="socials">
+      <a class="social-btn" href="https://github.com/SandilyaSaksham" target="_blank" rel="noopener" aria-label="GitHub" data-magnetic><i class="fa-brands fa-github"></i></a>
+      <a class="social-btn" href="#" target="_blank" rel="noopener" aria-label="LinkedIn" data-magnetic><i class="fa-brands fa-linkedin-in"></i></a>
+      <a class="social-btn" href="mailto:sandilyasaksham45@gmail.com" aria-label="Email" data-magnetic><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>© 2024 Saksham Tripathi. Designed &amp; built with care.</span>
+  <div class="foot-grad"></div>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
